@@ -12,6 +12,13 @@ WALLNOTES is a web-based note-taking application that allows users to create, mo
 - **Persistent Storage**: Notes are saved in cookies to persist between sessions.
 - **Welcome Message**: A welcome message appears on the first visit, explaining the commands. Users can choose not to show this message again.
 
+## DEMO
+
+<video width="600" controls>
+  <source src="wallnotes_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Usage
 
 ### Adding a Note
