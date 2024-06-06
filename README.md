@@ -14,10 +14,7 @@ WALLNOTES is a web-based note-taking application that allows users to create, mo
 
 ## DEMO
 
-<video width="600" controls>
-  <source src="wallnotes_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video controls src="https://github.com/mizucodes/wallnotes/blob/main/wallnotes_demo.mp4" title="Title"></video>
 
 ## Usage
 
