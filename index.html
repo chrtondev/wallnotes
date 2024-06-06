@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALLNOTES</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header><h1>WALLNOTES</h1></header>
+    <section></section>
+    <div id="contextMenu" class="context-menu">
+        <ul>
+            <li id="addNote">Add Note</li>
+            <li id="deleteNote">Delete Note</li>
+        </ul>
+    </div>
+    <div id="notepad" class="notepad">
+        <textarea id="notepadContent" class="notepad-content"></textarea>
+    </div>
+    <div id="helpDisplay" class="help-display">
+        <div class="help-content">
+            <h2>Commands</h2>
+            <ul>
+                <li>Ctrl + a: Will create a new note</li>
+                <li>Ctrl + S: Save and close a note</li>
+                <li>Double-click a note: Edit notes text</li>
+                <li>Right-click page: Open the context menu</li>
+                <li>Ctrl + h: will open the menu of commands</li>
+            </ul>
+            <button id="closeHelp">Close</button>
+        </div>
+    </div>
+    <div id="nameModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Enter Note Title</h2>
+            <input type="text" id="noteTitle" placeholder="Note Title">
+            <button id="saveNoteTitle">Save</button>
+        </div>
+    </div>
+    <div id="welcomeModal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome!</h2>
+            <p>Here are the commands you can use:</p>
+            <ul>
+                <li>Ctrl + a: Will create a new note</li>
+                <li>Ctrl + S: Save and close a note</li>
+                <li>Double-click a note: Edit notes text</li>
+                <li>Right-click page: Open the context menu</li>
+                <li>Ctrl + h: will open the menu of commands</li>
+            </ul>
+            <div>
+                <input type="checkbox" id="dontShowAgain">
+                <label for="dontShowAgain">Don't show this message again</label>
+            </div>
+            <button id="dismissWelcome">Dismiss</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
