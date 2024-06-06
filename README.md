@@ -14,7 +14,7 @@ WALLNOTES is a web-based note-taking application that allows users to create, mo
 
 ## DEMO
 
-[![Watch the demo video](media/wallnotes.png)](https://youtu.be/fVeydA0-Tr8)
+[![Watch the demo video](media/youtube.png)](https://youtu.be/fVeydA0-Tr8)
 
 ## Usage
 
